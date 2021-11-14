@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce-Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
+    </header>
+    <div class="cont-nav">
+      <nav class="nav-principal contenedor">
+        <a href="./index.html">Inicio</a>
+        <a href="/nosotros.html">Nosotros</a>
+        <a href="./tienda.html">Tienda</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./galeria.html">Galeria</a>
+        <a href="./contactos.html">Contactos</a>
+      </nav>
+    </div>
+
+    <main class="contenido-principal contenedor">
+      <h2 class="text-center">Nuestro Blog</h2>
+        <section class="contenedor-blog contenedor">
+          <div class="blog"><!--correción del profesor; me habia faltado un contenedor para todo el articulo-->
+            <article class="entrada-blog"><!--correción del profesor; no habia hecho un articulo, sino que hice un div, pero la etiqueta article es lo correcto-->
+                <h2>Guia de colores</h2>
+                <div class="img-blog">
+                  <img src="./img/nosotros.jpg" alt="img nosotros">
+                </div>
+                <div class="fecha-blog">
+                    <p>Fecha: <span>22 de octubre de 2022</span> </p>
+                    <p>Escrito por: <span>Tienda Muebles</span> </p>
+                </div>
+                <div class="textos-blog">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam iste dicta laudantium quam impedit
+                        distinctio consequatur illo sed delectus non ratione esse, ullam eveniet neque ex deleniti libero sunt blanditiis.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel temporibus doloribus, provident similique incidunt 
+                        cupiditate debitis quasi dolorem officia voluptatibus, alias saepe voluptas veritatis tempore! Quod hic nesciunt libero laboriosam.</p>
+                    <a class="btn max-width30" href="./entrada-blog.html">leer</a>
+                </div>
+            </article>
+            <article class="entrada-blog">
+              <h2>Guia de colores</h2>
+              <div class="img-blog"><!--corregido por el profesor; yo no encerre en un div la img sino que estaba suelta-->
+                  <img src="./img/principal.jpg" alt="img nosotros">
+              </div>
+              <div class="fecha-blog">
+                  <p>Fecha: <span>22 de octubre de 2022</span> </p>
+                  <p>Escrito por: <span>Tienda Muebles</span> </p>
+              </div>
+              <div class="textos-blog">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam iste dicta laudantium quam impedit
+                      distinctio consequatur illo sed delectus non ratione esse, ullam eveniet neque ex deleniti libero sunt blanditiis.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel temporibus doloribus, provident similique incidunt 
+                      cupiditate debitis quasi dolorem officia voluptatibus, alias saepe voluptas veritatis tempore! Quod hic nesciunt libero laboriosam.</p>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, repudiandae quibusdam totam obcaecati
+                      harum dolor aut cum excepturi architecto suscipit, quam, quae blanditiis exercitationem odit eveniet sequi explicabo! Optio, recusandae.</p>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, repudiandae quibusdam totam obcaecati
+                      harum dolor aut cum excepturi architecto suscipit, quam, quae blanditiis exercitationem odit eveniet sequi explicabo! Optio, recusandae.</p> 
+                  <a class="btn max-width30" href="./entrada-blog.html">leer</a>
+              </div>
+          </article>
+          </div>
+            <aside class="blog-aside">
+                <h3>Otras Entradas Blog</h3>
+                <ul>
+                    <li><a href="#"></a>Guia de colores</li>
+                    <li><a href="#"></a>Nuevos Modelos 2022</li>
+                    <li><a href="#"></a>Guia para Diseño de interiores</li>
+                    <li><a href="#"></a>Guia para Diseño de exteriores</li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+    <footer class="footer-info">
+      <div class="footer-grid contenedor">
+        <div class="info">
+          <h3>Categorias</h3>
+          <nav class="footer-nav">
+            <a href="#">Cocina</a>
+            <a href="#">Oficina</a>
+            <a href="#">Jardin</a>
+            <a href="#">Cochera</a>
+            <a href="#">Dormitorio</a>
+          </nav>
+        </div>
+        <div class="info">
+          <h3>Sobre Nosotros</h3>
+          <nav class="footer-nav">
+            <a href="#">Nuestra Hisrotia</a>
+            <a href="#">Misión, Visión y Valores </a>
+            <a href="#">Carreras</a>
+            <a href="#">Politica de Privacidad</a>
+            <a href="#">Terminos del Servicio</a>
+          </nav>
+        </div>
+        <div class="info">
+          <h3>Soporte</h3>
+          <nav class="footer-nav">
+            <a href="#">Preguntas Frecuentes</a>
+            <a href="#">Ayuda en linea</a>
+            <a href="#">Confianza y Seguridad</a>
+          </nav>
+        </div>
+      </div>
+      <p class="derechos-footer">
+        Todos los Derechos Reservados. TiendaMuebles
+      </p>
+    </footer>
+  </body>
+</html>
